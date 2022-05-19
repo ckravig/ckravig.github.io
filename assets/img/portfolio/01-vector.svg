@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3000 3000" enable-background="new 0 0 3000 3000" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1536.3546" y1="1536.3545" x2="2577.1506" y2="2577.1506">
+	<stop  offset="0" style="stop-color:#00B588"/>
+	<stop  offset="0.3635" style="stop-color:#00B98B"/>
+	<stop  offset="0.7126" style="stop-color:#00C493"/>
+	<stop  offset="1" style="stop-color:#00D49F"/>
+</linearGradient>
+<path display="none" fill="url(#SVGID_1_)" d="M3000,1500c0,828.4-671.6,1500-1500,1500c-104.3,0-206.2-10.6-304.5-30.9
+	l-631.9-631.9L2436.4,662.8l532.7,532.7C2989.4,1293.8,3000,1395.7,3000,1500z"/>
+<g>
+	<path fill="#00D49F" d="M3000,1500c0,828.4-671.6,1500-1500,1500c-104.3,0-206.2-10.6-304.5-30.9C513.1,2828.4,0,2224.1,0,1500
+		C0,671.6,671.6,0,1500,0c724.1,0,1328.4,513.1,1469.1,1195.5C2989.4,1293.8,3000,1395.7,3000,1500z"/>
+	<g>
+		<rect x="603.2" y="702.3" fill="#00A87E" width="1872.7" height="1674.4"/>
+		<rect x="524.1" y="623.3" fill="#4A4144" width="1872.7" height="1674.4"/>
+		<rect x="524.1" y="623.3" fill="#2E282B" width="1872.7" height="232.3"/>
+		<circle fill="#FF363E" cx="668.2" cy="739.4" r="33"/>
+		<circle fill="#FFDF21" cx="770.2" cy="739.4" r="33"/>
+		<circle fill="#3CFFA1" cx="872.2" cy="739.4" r="33"/>
+		<g>
+			<path fill="#3B3436" d="M1241.8,1418.7L1093,1576l148.7,155.4l-64.3,67.2L966.4,1576l211.1-223.5L1241.8,1418.7z"/>
+			<path fill="#3B3436" d="M1707.1,1232.6l-314.7,672.5h-111.3l311.8-672.5H1707.1z"/>
+			<path fill="#3B3436" d="M1815.5,1352.5l211.1,223.5l-211.1,222.6l-64.3-67.2l148.7-155.4l-148.7-157.3L1815.5,1352.5z"/>
+		</g>
+		<g>
+			<path fill="#8DC63F" d="M1205.8,1378.1L1057,1535.4l148.7,155.4l-64.3,67.2l-211.1-222.6l211.1-223.5L1205.8,1378.1z"/>
+			<path fill="#8DC63F" d="M1671.1,1192l-314.7,672.5h-111.3l311.8-672.5H1671.1z"/>
+			<path fill="#8DC63F" d="M1779.5,1311.9l211.1,223.5L1779.5,1758l-64.3-67.2l148.7-155.4l-148.7-157.3L1779.5,1311.9z"/>
+		</g>
+	</g>
+</g>
+</svg>
