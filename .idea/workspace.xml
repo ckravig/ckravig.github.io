@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60b7f0f0-678b-4131-8368-2e9c010929c4" name="Changes" comment="Add Assets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/navheader.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navheader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/layout/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/layout/_masthead.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <updated>1652847805266</updated>
       <workItem from="1652847807221" duration="4281000" />
       <workItem from="1652913360088" duration="20551000" />
-      <workItem from="1653068838883" duration="3336000" />
+      <workItem from="1653068838883" duration="4603000" />
     </task>
     <task id="LOCAL-00001" summary="README.md">
       <created>1652848848455</created>

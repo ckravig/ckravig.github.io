@@ -40,13 +40,11 @@
 }
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparentize($gray-900, 0.5);
+    background-color: transparentize($gray-900, 0.5); // rgba(233,247,123,.7)
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
