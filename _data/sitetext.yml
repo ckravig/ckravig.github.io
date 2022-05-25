@@ -38,34 +38,53 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "High school"
+        year: "2015-2019"
+        desc: "I went into high school being extremely interested in computers. My school allowed me to take 
+        computer science courses through a local technical college when I was a sophomore, which allowed me to 
+        get college credits early. UGHS then offered computer science courses of their own my junior year. 
+        After I exhausted them of their computer courses I then asked the principal for permission to take AP 
+        Computer Science as an independent study which was approved.
+        I was awarded the **Computer Academic Excellence Award** by the Principal of Union Grove High School."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Best Buy"
+        year: "2017-2019"
+        desc: "I was in quite a few different sales positions during my time at Best Buy. I started as a seasonal
+        sales associate for the Holiday season which lead to me being hired on part time. By the end of my time
+        there I could zone in about 75% of the store with enough knowledge to inform and navigate the customers
+        towards their best solution."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Geek Squad"
+        year: "2019-2020"
+        desc: "I was always looking to further my skills at Best Buy and when a part time Geek Squad position
+        opened up I knew I wanted to apply. I learned what it was like to be on the other end of a sale and
+        how the customers are interacting with their technology. Learning about how to diagnose a customers
+        computer and how you can help improve their user experience along the way was a great skill to obtain."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "University of Wisconsin-Parkside"
+        year: "2019-2023"
+        desc: "I am currently a Senior going for Computer Science. I am glad to be able to take courses at
+        Parkside and meet other peers in the same field as I, learning and working together."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
+      - title: "Modine Manufacturing"
+        year: "2020-Present"
+        desc: "As an IT Operations Intern I handle most of the network account creations and terminations.
+        I am located at Modine's world headquarters in Racine, WI, working in the corporate environment.
+        Having the opportunity to work with their processes, servers, softwares"
+        image: assets/img/timeline/2.jpg
+        alt:
     end: "Be Part <br> of My <br> Journey!"
 
   about:
     title: "About Me"
 #    text: "our story"
-    body: "I am a senior at UW-Parkside and I am majoring in Computer Science with a minor in Web Development. I am very interested in technology and enjoy using it. Currently, I am an IT Operations Intern for Modine Manufacturing. I work heavily with Cherwell Service Management and have self-taught ticket management automation with their built-in One-Step tool. I have also automated our entire account creation process with Powershell scripts in combination with Cherwell One-Steps. In my free time, I enjoy building custom keyboards and computers for commission and working on my cars and other various hobbies."
+    body: "I am a senior at UW-Parkside and I am majoring in Computer Science with a minor in Web Development. I am very interested in technology and enjoy using it. Currently, I am an IT Operations Intern for Modine Manufacturing. I work heavily with Cherwell Service Management and have self-taught ticket management automation with their built-in One-Step tool. I have also automated our entire account creation process with Powershell scripts in combination with Cherwell One-Steps and Active Directory. In my free time, I enjoy building custom keyboards and computers for commission and working on my cars and other various hobbies."
     section: about
 
 #  clients:
