@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+                                   <!-- Hello, Nice to Meet You! -->
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css" type="text/css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function(){
+    var night = localStorage.getItem('nightOn');
+   
+    if (night == "true") {
+         $('ul').toggleClass('active')
+         $('section').toggleClass('dark')
+     }else{
+
+      if (localStorage.getItem("nightOn") === null) {
+  localStorage.setItem('nightOn', false);
+      window.location.reload();
+}
+      
+     }
+
+   $('ul').click(function(){
+    if(night == "false"){
+        localStorage.setItem('nightOn', true);
+        $('ul').toggleClass('active')
+    $('section').toggleClass('dark')
+        
+      }
+    
+      if(night == "true"){
+        localStorage.setItem('nightOn', false);
+        $('ul').toggleClass('active')
+    $('section').toggleClass('dark')
+        
+      }
+   })
+  })
+ </script>
+
+<html>
+<head> 
+  <title>
+            Collin's Website
+        </title>
+ 
+</head>
+
+<body>
+
+
+ <section>
+  <h1>
+            Welcome to Collin's Homepage
+        </h1>
+        <h1>
+        <a href="higherlower.html">Click here for my Higher Lower game</a>
+        </h1>
+        <h1>
+            <a href="tiregame.html">Click here for my Tire Pressure game</a>
+        </h1>
+        <!-- <h1>
+        <a href="ark.html">Click here to see my Ark Server Status</a>
+        </h1>-->
+        <h1>
+            <a href="tnf/index.html">Click here for my Car Page</a>
+        </h1>
+
+        
+        <img src="logo.png" alt="Image not found" height="230px" width="230px">
+ </section>
+  <ul>
+   <li>
+    <span>Dark</span>
+    <span>Light</span>
+   </li>
+  </ul>
+ 
+</body>
+</html>

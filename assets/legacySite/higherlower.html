@@ -1,0 +1,217 @@
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css" type="text/css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function(){
+    var night = localStorage.getItem('nightOn');
+   
+    if (night == "true") {
+         $('ul').toggleClass('active')
+         $('section').toggleClass('dark')
+     }else{
+
+      if (localStorage.getItem("nightOn") === null) {
+  localStorage.setItem('nightOn', false);
+      window.location.reload();
+}
+      
+     }
+
+   $('ul').click(function(){
+    if(night == "false"){
+        localStorage.setItem('nightOn', true);
+        $('ul').toggleClass('active')
+    $('section').toggleClass('dark')
+        
+      }
+    
+      if(night == "true"){
+        localStorage.setItem('nightOn', false);
+        $('ul').toggleClass('active')
+    $('section').toggleClass('dark')
+        
+      }
+   })
+  })
+ </script>
+<html>
+<section>
+<head>
+<title>The Higher Lower Game</title>
+
+
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript"
+src="https://d14to6y4nub5k1.cloudfront.net/gulp/e8c37837e1dfa1c7433f5ec5e7f4306ac8aec0f1/chs-js-lib/chs.js"></script>
+
+
+<style>
+canvas{
+    border: 1px solid black;
+}
+</style>
+
+</head>
+
+<body>
+<h1>The Higher Lower Game</h1>
+
+
+
+<canvas
+width="400"
+height="500"
+class="codehs-editor-canvas"></canvas>
+<script>
+window.onload = function() {
+
+    var highScore = 0;
+var points = 0;
+var lives = 3;
+var playerName ="";
+var num = Randomizer.nextInt(0, 10);
+
+var number = new Text(num, "100pt Arial");
+    number.setPosition(getWidth()/2-35, getHeight()/2-30);
+    if(num == 10){
+        number.setPosition(getWidth()/2-80, getHeight()/2-30);
+    }else{
+        number.setPosition(getWidth()/2-35, getHeight()/2-30);
+    }
+    
+    var currentPoints = 0;
+    
+    var txtPoints = new Text("Points: " + points, "30pt Arial");
+    txtPoints.setPosition(10, 30);
+    add(txtPoints);
+    
+    var txtHighscore = new Text("High Score: " + highScore, "30pt Arial");
+    txtHighscore.setPosition(10, 70);
+    add(txtHighscore);
+    
+    var txtLives = new Text("Lives: " + lives, "30pt Arial");
+    txtLives.setPosition(250,30);
+    add(txtLives);
+    start();
+
+function start(){
+    
+   
+    
+    // Text Placement
+    var high = new Rectangle(100, 50);
+    high.setPosition(50,350);
+    high.setColor(Color.blue);
+    add(high);
+    var low = new Rectangle(100, 50);
+    low.setPosition(250,350);
+    low.setColor(Color.red);
+    add(low);
+    var txtLow = new Text("Low", "30pt Arial");
+    txtLow.setPosition(262, 340);
+    add(txtLow);
+    var txtHigh = new Text("High", "30pt Arial");
+    txtHigh.setPosition(60, 340);
+    add(txtHigh);
+    var txt = new Text("Click Blue for High or Red for Low!", "18pt Arial");
+    txt.setPosition(12, 430);
+    add(txt);
+    
+    add(number);
+    mouseClickMethod(btnClick);
+}
+
+function btnClick(e){
+    // Button Click Function
+    var elem = getElementAt(e.getX(), e.getY());
+    if(elem == null){
+    }else if(elem.getColor() == Color.blue){
+        
+        // Makes sure you can't get the same number twice in a row
+        var newNum = Randomizer.nextInt(0, 10);
+        while(newNum == num){
+            newNum = Randomizer.nextInt(0, 10);
+        }
+        if(newNum > num){
+            points++;
+            if(currentPoints != points){
+                currentPoints = points;
+                txtPoints.setText("Points: " + currentPoints);
+            }
+            if(points >= highScore){
+                highScore = points;
+                txtHighscore.setText("High Score: " + highScore);
+            }
+            println(points);
+        }else{
+            lives --;
+            txtLives.setText("Lives: " + lives);
+            if(lives == 0){
+                points = 0;
+                lives = 3;
+                txtLives.setText("Lives: " + lives);
+                txtPoints.setText("Points: " + points);
+            }
+        }
+        num = newNum;
+        
+       //Text Position 
+        if(num == 10){
+        number.setPosition(getWidth()/2-80, getHeight()/2-30);
+    }else{
+        number.setPosition(getWidth()/2-35, getHeight()/2-30);
+    }
+        number.setText(num);
+    }else if(elem.getColor() == Color.red){
+       
+       // Makes sure you can't get the same number twice in a row
+        var newNum = Randomizer.nextInt(0, 10);
+        while(newNum == num){
+            newNum = Randomizer.nextInt(0, 10);
+        }
+        if(newNum < num){
+            points++;
+        if(currentPoints != points){
+            currentPoints = points;
+            txtPoints.setText("Points: " + currentPoints);
+        }
+        if(points >= highScore){
+            highScore = points;
+            txtHighscore.setText("High Score: " + highScore);
+        }
+            println(points);
+        }else{
+            lives --;
+            txtLives.setText("Lives: " + lives);
+            if(lives == 0){
+                points = 0;
+                lives = 3;
+                txtLives.setText("Lives: " + lives);
+                txtPoints.setText("Points: " + points);
+            }
+        }
+        num = newNum;
+       
+       //Text Position
+        if(num == 10){
+        number.setPosition(getWidth()/2-80, getHeight()/2-30);
+    }else{
+        number.setPosition(getWidth()/2-35, getHeight()/2-30);
+    }
+        number.setText(num);
+    }
+    
+}
+};
+</script>
+<ul>
+   <li>
+    <span>Dark</span>
+    <span>Light</span>
+   </li>
+  </ul>
+</body>
+</section>
+</html>
