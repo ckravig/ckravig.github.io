@@ -32,27 +32,60 @@ header.masthead {
     }
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 450px) {
   header.masthead {
-    background-position: center center;
+    background-position: 39% center;
+
     .intro-text {
-      padding-top: 30%;
-      padding-bottom: 200px;
+      position: relative;
+      padding-top: 60%;
+      padding-bottom: 100px;
+
       .intro-lead-in {
-        font-size: 40px;
+        font-size: 22px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 22px;
         margin-bottom: 25px;
-        padding-top: 40%;
+        padding-top: 50%;
         @include serif-font;
       }
+
       .intro-heading {
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
+        line-height: 50px;
+        margin-bottom: 25px;
         @include heading-font;
       }
     }
   }
+  @media (min-width: 768px) {
+    header.masthead {
+      background-position: center center;
+
+      .intro-text {
+        padding-top: 30%;
+        padding-bottom: 200px;
+
+        .intro-lead-in {
+          font-size: 40px;
+          font-style: italic;
+          line-height: 40px;
+          margin-bottom: 25px;
+          padding-top: 40%;
+          @include serif-font;
+        }
+
+        .intro-heading {
+          font-size: 75px;
+          font-weight: 700;
+          line-height: 75px;
+          margin-bottom: 50px;
+          @include heading-font;
+        }
+      }
+    }
+  }
 }
+
+
