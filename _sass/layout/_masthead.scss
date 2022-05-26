@@ -34,11 +34,12 @@ header.masthead {
 }
 @media (max-width: 450px) {
   header.masthead {
-    background-position: 39% center;
+    height: 115vh;
+    background-position: 34% -15vh;
 
     .intro-text {
       position: relative;
-      padding-top: 70%;
+      padding-top: 75%;
       padding-bottom: 100px;
 
       .intro-lead-in {
