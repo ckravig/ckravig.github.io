@@ -1,7 +1,7 @@
 ---
 title: Powershell Automation
 subtitle: Powershell - Active Directory - Cherwell
-image: assets/img/portfolio/01-thumbnail.png
+image: assets/img/portfolio/powershell.png
 alt: 
 
 caption:

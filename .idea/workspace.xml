@@ -6,16 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="60b7f0f0-678b-4131-8368-2e9c010929c4" name="Changes" comment="Add Assets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/project1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/layout/_timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/layout/_timeline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/04-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/05-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/timeline/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/timeline/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/timeline/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/timeline/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/02powershellAD.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/02powershellAD.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/03legacysite.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/03legacysite.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/legacySite/ark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/legacySite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/legacySite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/legacySite/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +55,7 @@
       <workItem from="1653068838883" duration="4603000" />
       <workItem from="1653507901410" duration="5273000" />
       <workItem from="1653524821410" duration="25000" />
-      <workItem from="1653524855364" duration="10455000" />
+      <workItem from="1653524855364" duration="11866000" />
     </task>
     <task id="LOCAL-00001" summary="README.md">
       <created>1652848848455</created>
