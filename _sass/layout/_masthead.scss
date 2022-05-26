@@ -13,14 +13,14 @@ header.masthead {
   margin-top: 0px;
   .intro-text {
     position:relative;
-    padding-top: 60%;
-    padding-bottom: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      padding-top: 50%;
       @include serif-font;
     }
     .intro-heading {
@@ -32,62 +32,26 @@ header.masthead {
     }
   }
 }
-@media (max-width: 450px) {
+@media (min-width: 768px) {
   header.masthead {
-    height: 115vh;
-    background-position: 34% -15vh;
-
+    background-position: center center;
     .intro-text {
-      position: relative;
-      padding-top: 75%;
-      padding-bottom: 100px;
-
+      padding-top: 0;
+      padding-bottom: 0;
       .intro-lead-in {
-        font-size: 22px;
+        font-size: 40px;
         font-style: italic;
-        line-height: 22px;
+        line-height: 40px;
         margin-bottom: 25px;
-        padding-top: 50%;
         @include serif-font;
       }
-
       .intro-heading {
-        font-size: 1.5rem;
+        font-size: 75px;
         font-weight: 700;
-        line-height: 50px;
-        margin-bottom: 25px;
+        line-height: 75px;
+        margin-bottom: 50px;
         @include heading-font;
       }
     }
   }
 }
-  @media (min-width: 768px) {
-    header.masthead {
-      background-position: center center;
-
-      .intro-text {
-        padding-top: 30%;
-        padding-bottom: 200px;
-
-        .intro-lead-in {
-          font-size: 40px;
-          font-style: italic;
-          line-height: 40px;
-          margin-bottom: 25px;
-          padding-top: 50%;
-          @include serif-font;
-        }
-
-        .intro-heading {
-          font-size: 75px;
-          font-weight: 700;
-          line-height: 75px;
-          margin-bottom: 50px;
-          @include heading-font;
-        }
-      }
-    }
-
-}
-
-
