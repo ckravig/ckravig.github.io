@@ -33,7 +33,7 @@ en: &DEFAULT_EN
 
   timeline:
     title: "My Journey"
-#    text: "Lorem ipsum timeline"
+    text: " "
     section: timeline
     # left is the default
     #start_align: "left"
@@ -46,7 +46,7 @@ en: &DEFAULT_EN
         After I exhausted them of their computer courses I then asked the principal for permission to take AP 
         Computer Science as an independent study which was approved.
         I was awarded the **Computer Academic Excellence Award** by the Principal of Union Grove High School."
-        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/UGHSlogo200x.png
         alt:
       - title: "Best Buy"
         year: "2017-2019"
@@ -54,7 +54,7 @@ en: &DEFAULT_EN
         sales associate for the Holiday season which lead to me being hired on part time. By the end of my time
         there I could zone in about 75% of the store with enough knowledge to inform and navigate the customers
         towards their best solution."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/BBY-logo200x.jpg
         alt:
       - title: "Geek Squad"
         year: "2019-2020"
@@ -62,13 +62,13 @@ en: &DEFAULT_EN
         opened up I knew I wanted to apply. I learned what it was like to be on the other end of a sale and
         how the customers are interacting with their technology. Learning about how to diagnose a customers
         computer and how you can help improve their user experience along the way was a great skill to obtain."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/GeekSquad200x.png
         alt: image alt text
       - title: "University of Wisconsin-Parkside"
         year: "2019-2023"
         desc: "I am currently a Senior going for Computer Science. I am glad to be able to take courses at
         Parkside and meet other peers in the same field as I, learning and working together."
-        image: assets/img/timeline/4.jpg
+        image: assets/img/timeline/UWP-logo200x.png
         alt:
         # you can enforce the alignment
         align: right
@@ -77,13 +77,13 @@ en: &DEFAULT_EN
         desc: "As an IT Operations Intern I handle most of the network account creations and terminations.
         I am located at Modine's world headquarters in Racine, WI, working in the corporate environment.
         Having the opportunity to work with their processes, servers, softwares"
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/modine200x.jpg
         alt:
     end: "Be Part <br> of My <br> Journey!"
 
   about:
     title: "About Me"
-#    text: "our story"
+    text: " "
     body: "I am a senior at UW-Parkside and I am majoring in Computer Science with a minor in Web Development. I am very interested in technology and enjoy using it. Currently, I am an IT Operations Intern for Modine Manufacturing. I work heavily with Cherwell Service Management and have self-taught ticket management automation with their built-in One-Step tool. I have also automated our entire account creation process with Powershell scripts in combination with Cherwell One-Steps and Active Directory. In my free time, I enjoy building custom keyboards and computers for commission and working on my cars and other various hobbies."
     section: about
 

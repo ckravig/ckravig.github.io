@@ -55,6 +55,9 @@
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
+          &:hover {
+            color: darken($primary, 25%);
+          }
         }
       }
     }
