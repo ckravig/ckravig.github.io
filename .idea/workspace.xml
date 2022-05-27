@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60b7f0f0-678b-4131-8368-2e9c010929c4" name="Changes" comment="Add Assets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/02powershellAD.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/02powershellAD.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_portfolio/03legacysite.md" beforeDir="false" afterPath="$PROJECT_DIR$/_portfolio/03legacysite.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/legacySite/ark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/legacySite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/legacySite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/legacySite/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/sitetext.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/sitetext.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,8 @@
       <workItem from="1653507901410" duration="5273000" />
       <workItem from="1653524821410" duration="25000" />
       <workItem from="1653524855364" duration="11866000" />
+      <workItem from="1653605328740" duration="147000" />
+      <workItem from="1653606152363" duration="6471000" />
     </task>
     <task id="LOCAL-00001" summary="README.md">
       <created>1652848848455</created>

@@ -40,43 +40,51 @@ en: &DEFAULT_EN
     events:
       - title: "High school"
         year: "2015-2019"
-        desc: "I went into high school being extremely interested in computers. My school allowed me to take 
-        computer science courses through a local technical college when I was a sophomore, which allowed me to 
-        get college credits early. UGHS then offered computer science courses of their own my junior year. 
-        After I exhausted them of their computer courses I then asked the principal for permission to take AP 
-        Computer Science as an independent study which was approved.
+        desc: "Upon entering High School, I knew that I wanted to deepen my knowledge of computers. 
+        Fortunately, my school allowed me to take 
+        computer science courses through a local technical college during my sophomore year, which enabled me to 
+        obtain college credits early. My school then offered their own computer science courses my junior year. 
+        After I had completed all their provided computer courses, I received special permission from 
+        the principal to take AP 
+        Computer Science as an independent study.
         I was awarded the **Computer Academic Excellence Award** by the Principal of Union Grove High School."
         image: assets/img/timeline/UGHSlogo200x.png
         alt:
       - title: "Best Buy"
         year: "2017-2019"
-        desc: "I was in quite a few different sales positions during my time at Best Buy. I started as a seasonal
-        sales associate for the Holiday season which lead to me being hired on part time. By the end of my time
-        there I could zone in about 75% of the store with enough knowledge to inform and navigate the customers
+        desc: "In my time working for Best Buy, I held various sales positions. I began my employment as a seasonal
+        sales associate before my performance led to me being hired for a part-time position. By the end of my time
+        on the sales floor, I was equipped with enough knowledge of the store and their products to inform and navigate the customers
         towards their best solution."
         image: assets/img/timeline/BBY-logo200x.jpg
         alt:
       - title: "Geek Squad"
         year: "2019-2020"
-        desc: "I was always looking to further my skills at Best Buy and when a part time Geek Squad position
-        opened up I knew I wanted to apply. I learned what it was like to be on the other end of a sale and
-        how the customers are interacting with their technology. Learning about how to diagnose a customers
-        computer and how you can help improve their user experience along the way was a great skill to obtain."
+        desc: "An opportunity to transfer to the Geek Squad arose during my time on the sales floor and 
+        I was eager to extend my knowledge and skills as part of that team. As part of the Geek Squad, I learned what
+         it was like to be on the other end of a sale and
+        how the customers were interacting with their technology. I gained familiarity with diagnosing customer
+        computers and assisting in the improvement of their user experience."
         image: assets/img/timeline/GeekSquad200x.png
         alt: image alt text
       - title: "University of Wisconsin-Parkside"
         year: "2019-2023"
-        desc: "I am currently a Senior going for Computer Science. I am glad to be able to take courses at
-        Parkside and meet other peers in the same field as I, learning and working together."
+        desc: "I am currently a Senior pursuing a Computer Science degree. I have taken many relevant courses in my 
+        time at Parkside. In my most recent semester, I was able to take courses such as data structures and algorithms, web application
+        security, computer architecture, and database management systems, which all gave me valuable knowledge. Upon
+         graduation, I will be obtaining a Bachelor of Science in Computer Science with a breadth in Digital Art along with a
+         Unix System Administration Certificate. I am also pursuing a minor in Web Development and a certificate in Cyber Security."
         image: assets/img/timeline/UWP-logo200x.png
         alt:
         # you can enforce the alignment
         align: right
       - title: "Modine Manufacturing"
         year: "2020-Present"
-        desc: "As an IT Operations Intern I handle most of the network account creations and terminations.
-        I am located at Modine's world headquarters in Racine, WI, working in the corporate environment.
-        Having the opportunity to work with their processes, servers, softwares"
+        desc: "As an IT Operations Intern for Modine, I handle most of the network account creations and terminations.
+        Working in Modine's world headquarters has allowed me to experience the ins and outs of a corporate environment.
+        During my employment, I have spent a lot of time working with Microsoft's administrative software. As part of my role, 
+         I delegate permissions to other employees and maintain the company's network. I also contribute to the company's IT infrastructure,
+          which includes the company's servers, printers, and network devices."
         image: assets/img/timeline/modine200x.jpg
         alt:
     end: "Be Part <br> of My <br> Journey!"
@@ -84,7 +92,13 @@ en: &DEFAULT_EN
   about:
     title: "About Me"
     text: " "
-    body: "I am a senior at UW-Parkside and I am majoring in Computer Science with a minor in Web Development. I am very interested in technology and enjoy using it. Currently, I am an IT Operations Intern for Modine Manufacturing. I work heavily with Cherwell Service Management and have self-taught ticket management automation with their built-in One-Step tool. I have also automated our entire account creation process with Powershell scripts in combination with Cherwell One-Steps and Active Directory. In my free time, I enjoy building custom keyboards and computers for commission and working on my cars and other various hobbies."
+    body: "I am entering my senior year at UW-Parkside as a Computer Science major, while also pursuing a minor in Web Development. 
+    I have always been extremely interested in technology and have dedicated much of my free time to exploring various 
+    technological projects. Currently, I am working for Modine Manufacturing as an IT Operations Intern. In my role, I have gained experience
+    with Cherwell Service Management as well as with self-instructing on the implementation of ticket management automation with their built-in One-Step tool. Outside of my assigned role, I have also automated Modine's entire account
+    creation process with Powershell scripts in combination with Cherwell One-Steps and Active Directory, to ensure efficiency and timely completion of
+    goals. My passion for learning and problem solving extend to my personal life as well. In my free time, I enjoy tackling new hobbies and mastering new skills.
+    Recently, I have been building custom keyboards and computers for commission as well as advancing my knowledge of repairing and enhancing motor vehicles."
     section: about
 
 #  clients:
