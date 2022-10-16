@@ -71,6 +71,14 @@ text-align:center;
 font-size: 35px;
 }
 
+h2{
+text-align:center;
+}
+
+h3{
+text-align:center;
+}
+
 img{
 display: block;
 margin: 0 auto;
