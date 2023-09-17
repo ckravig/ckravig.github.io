@@ -79,7 +79,7 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
       - title: "Modine Manufacturing"
-        year: "2020-Present"
+        year: "2020-2022"
         desc: "As an IT Operations Intern for Modine, I handle most of the network account creations and terminations.
         Working in Modine's world headquarters has allowed me to experience the ins and outs of a corporate environment.
         During my employment, I have spent a lot of time working with Microsoft's administrative software. As part of my role, 
@@ -87,18 +87,22 @@ en: &DEFAULT_EN
           which includes the company's servers, printers, and network devices."
         image: assets/img/timeline/modine200x.jpg
         alt:
+        - title: "Modine Manufacturing"
+        year: "2022-Present"
+        desc: "Upon Graduation from Parkside I was offered a full-time position as a Systems Engineer. As a Systems Engineer at Modine Manufacturing Company's global headquarters, 
+        I play a pivotal role in upholding and deploying the organization's IT technologies. I have spearheaded the creation and upkeep of automation processes, streamlining critical operational tasks. 
+        Additionally, I've taken the initiative to train global users, ensuring they can leverage these automated processes efficiently. Through my efforts, 
+        I've contributed to enhancing operational efficiency and ensuring seamless IT functionality on a global scale."
+        image: assets/img/timeline/modine200x.jpg
+        alt:
     end: "Be Part <br> of My <br> Journey!"
 
   about:
     title: "About Me"
     text: " "
-    body: "I am entering my senior year at UW-Parkside as a Computer Science major, while also pursuing a minor in Web Development. 
-    I have always been extremely interested in technology and have dedicated much of my free time to exploring various 
-    technological projects. Currently, I am working for Modine Manufacturing as an IT Operations Intern. In my role, I have gained experience
-    with Cherwell Service Management as well as with self-instructing on the implementation of ticket management automation with their built-in One-Step tool. Outside of my assigned role, I have also automated Modine's entire account
-    creation process with Powershell scripts in combination with Cherwell One-Steps and Active Directory, to ensure efficiency and timely completion of
-    goals. My passion for learning and problem solving extend to my personal life as well. In my free time, I enjoy tackling new hobbies and mastering new skills.
-    Recently, I have been building custom keyboards and computers for commission as well as advancing my knowledge of repairing and enhancing motor vehicles."
+    body: ""I graduated from UW-Parkside in 2023 with a Bachelor's degree in Computer Science, along with a minor in Web Development. Since 2022, I've been thriving as a Systems Engineer at Modine Manufacturing, specializing in server management, configuration, and automation.
+
+    In addition to my professional endeavors, I'm deeply passionate about technology. I maintain an extensive homelab environment, which serves as a sandbox for exploring and deepening my understanding of both hardware and software in the tech industry. This hands-on approach has been invaluable in broadening my knowledge and skills."
     section: about
 
 #  clients:

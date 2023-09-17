@@ -15,3 +15,4 @@ I created this website to display my various projects and resume.
 - Date: May 2022
 - Category: Web Development
 
+[View Project](https://github.com/ckravig/ckravig.github.io){: .btn}
