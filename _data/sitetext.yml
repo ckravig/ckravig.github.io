@@ -100,7 +100,8 @@ en: &DEFAULT_EN
   about:
     title: "About Me"
     text: " "
-    body: ""I graduated from UW-Parkside in 2023 with a Bachelor's degree in Computer Science, along with a minor in Web Development. Since 2022, I've been thriving as a Systems Engineer at Modine Manufacturing, specializing in server management, configuration, and automation.
+    body: "I graduated from UW-Parkside in 2023 with a Bachelor's degree in Computer Science, along with a minor in Web Development. Since 2022, I've been thriving as a Systems Engineer at Modine Manufacturing, specializing in server management, configuration, and automation.
+
     In addition to my professional endeavors, I'm deeply passionate about technology. I maintain an extensive homelab environment, which serves as a sandbox for exploring and deepening my understanding of both hardware and software in the tech industry. This hands-on approach has been invaluable in broadening my knowledge and skills."
     section: about
 
