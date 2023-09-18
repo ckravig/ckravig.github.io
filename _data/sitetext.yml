@@ -77,8 +77,8 @@ en: &DEFAULT_EN
         image: assets/img/timeline/UWP-logo200x.png
         alt:
         # you can enforce the alignment
-        align: right
-      - title: "Modine Manufacturing"
+        # align: right
+      - title: "Modine Manufacturing - IT Operations Intern"
         year: "2020-2022"
         desc: "As an IT Operations Intern for Modine, I handle most of the network account creations and terminations.
         Working in Modine's world headquarters has allowed me to experience the ins and outs of a corporate environment.
@@ -87,7 +87,7 @@ en: &DEFAULT_EN
           which includes the company's servers, printers, and network devices."
         image: assets/img/timeline/modine200x.jpg
         alt:
-        - title: "Modine Manufacturing"
+      - title: "Modine Manufacturing - Systems Engineer"
         year: "2022-Present"
         desc: "Upon Graduation from Parkside I was offered a full-time position as a Systems Engineer. As a Systems Engineer at Modine Manufacturing Company's global headquarters, 
         I play a pivotal role in upholding and deploying the organization's IT technologies. I have spearheaded the creation and upkeep of automation processes, streamlining critical operational tasks. 
@@ -98,16 +98,18 @@ en: &DEFAULT_EN
     end: "Be Part <br> of My <br> Journey!"
 
   about:
-  title: "About Me"
-  text: " "
-  body: >
-    I graduated from UW-Parkside in 2023 with a Bachelor's degree in Computer Science, along with a minor in Web Development.
+    title: "About Me"
+    text: " "
+    body:  "I graduated from UW-Parkside in 2023 with a Bachelor's degree in Computer Science, along with a minor in Web Development. 
     Since 2022, I've been thriving as a Systems Engineer at Modine Manufacturing, specializing in server management, configuration, and automation.
 
-    In addition to my professional endeavors, I'm deeply passionate about technology.
-    I maintain an extensive homelab environment, which serves as a sandbox for exploring and deepening my understanding of both hardware and software in the tech industry.
-    This hands-on approach has been invaluable in broadening my knowledge and skills.
-  section: about
+    In addition to my professional endeavors, I'm deeply passionate about technology. 
+    I maintain an extensive homelab environment, which serves as a sandbox for exploring and deepening my understanding of both hardware and software in the tech industry. 
+    This hands-on approach has been invaluable in broadening my knowledge and skills."
+    section: about
+
+
+
 
 
 #  clients:
