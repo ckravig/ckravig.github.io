@@ -69,11 +69,17 @@ en: &DEFAULT_EN
         alt: image alt text
       - title: "University of Wisconsin-Parkside"
         year: "2019-2023"
-        desc: "I am currently a Senior pursuing a Computer Science degree. I have taken many relevant courses in my 
-        time at Parkside. In my most recent semester, I was able to take courses such as data structures and algorithms, web application
-        security, computer architecture, and database management systems, which all gave me valuable knowledge. Upon
-         graduation, I will be obtaining a Bachelor of Science in Computer Science with a breadth in Digital Art along with a
-         Unix System Administration Certificate. I am also pursuing a minor in Web Development and a certificate in Cyber Security."
+        desc: "I graduated from the University of Wisconsin–Parkside with a Bachelor of Science in Computer Science, 
+        with a breadth in Web Development along with a Unix System Administration Certificate. During my time at Parkside, 
+        I completed coursework in areas such as data structures and algorithms, web applications and computer architecture, 
+        which provided a strong foundation in both software development and system-level computing.
+
+        Alongside my coursework, I focused heavily on systems and infrastructure through the Unix System Administration Certificate, 
+        where I developed practical experience working with Linux environments, automation, and system management tools.
+
+        I was also a member of the DevOps team, where I helped integrate CI/CD pipelines for development teams using Jenkins, 
+        GitHub, and AWS. In this role, I worked on improving build automation, streamlining deployment workflows, 
+        and supporting developers by creating more reliable and repeatable development pipelines."
         image: assets/img/timeline/UWP-logo200x.png
         alt:
         # you can enforce the alignment
